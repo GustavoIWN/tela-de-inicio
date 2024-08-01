@@ -1,0 +1,47 @@
+.titulo {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.botao {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    position: relative;
+    z-index: 2;
+}
+.video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+  
+#video-background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container_bt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 760px;
+    z-index: 2;
+    position: relative;
+}
